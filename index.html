@@ -3,83 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemrograman Web Dasar</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="./script/script.js"></script>
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Tugas Pemograman Web</title>
 
-    
 </head>
 <body>
 
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pemrograman Web Dasar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#" onclick="loadPage('./datadiri/home.html')">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" onclick="loadPage('./datadiri/anggota.html')">Anggota</a> <!-- Ubah tautan -->
-                </li>
-            </ul>
+
+<div class="container mt-4">
+    <h1 style="text-align: center;">Pemograman Web</h1>
+
+    <div class="list-group">
+        <a href="#collapseKelompok13" class="list-group-item list-group-item-action" data-toggle="collapse" aria-expanded="false" aria-controls="collapseKelompok13" style="background-color: transparent; border: 2px solid #387478;">Kelompok 13 (klik untuk melihat anggota)</a>
+        <div class="collapse" id="collapseKelompok13">
+            <p class="list-group-item list-group-item-action" style="background-color: transparent;">Nashrullah Akbar</p>
+            <p class="list-group-item list-group-item-action" style="background-color: transparent;">Sahrul Gunawan</p>
+            <p class="list-group-item list-group-item-action" style="background-color: transparent;">Ichsanul Hakim</p>
+            <p class="list-group-item list-group-item-action" style="background-color: transparent;">Nandi Triana</p>
         </div>
     </div>
-</nav>
-
-<div class="container-fluid">
+<h2>Progress</h2>
     <div class="row">
-        <!-- Sidebar -->
-        <div class="col-3 sidebar">
-            <div class="menu-item"><a href="#" onclick="loadPage('./datadiri/isan.html')">Ichsanul Hakim</a></div>
-            <div class="menu-item"><a href="#" onclick="loadPage('./datadiri/akbar.html')">Nashrullah Akbar</a></div>
-            <div class="menu-item"><a href="#" onclick="loadPage('./datadiri/nandi.html')">Nandi Triana</a></div>
-            <div class="menu-item"><a href="#" onclick="loadPage('./datadiri/sahrul.html')">Sahrul Gunawan</a></div>
-
-            <!-- Pagination -->
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center mt-3">
-                    <li class="page-item"><a class="page-link" href="#" onclick="loadPage('./datadiri/isan.html')">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#" onclick="loadPage('./datadiri/akbar.html')">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#" onclick="loadPage('./datadiri/nandi.html')">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#" onclick="loadPage('./datadiri/sahrul.html')">4</a></li>
-                </ul>
-            </nav>
+        <!-- Menggunakan loop untuk membuat kotak dari w1 hingga w16 -->
+        <div class="col-md-3">
+            <a href="halaman_w1.html" class="box">w1</a>
         </div>
 
-        <!-- Main Content -->
-        <div class="col-6 main-content" id="main-content">
-            <!-- Konten akan di-load ke sini menggunakan AJAX -->
+        <div class="col-md-3">
+            <a href="./TUGAS WEEK 2/week2.html" class="box">w2</a>
         </div>
 
-        <!-- Right Sidebar -->
-        <div class="col-3 right-sidebar">
-            <div class="text-center">
-            <img src="./img/telkom.png" alt="Logo" class="img-fluid mb-3">
-            <p><a href="https://telkomuniversity.ac.id/" target="_blank">Telkom University</a></p>
-            <p><a href="https://igracias.telkomuniversity.ac.id/" target="_blank">Igracias</a></p>
-            <p><a href="https://lms.telkomuniversity.ac.id/login/index.php" target="_blank">CeLOE LMS</a></p>
-            </div>
+        <div class="col-md-3">
+            <a href="./TUGAS WEEK 3/week3.html" class="box">w3</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="./TUGAS WEEK 4/WEB/week4.html" class="box">w4</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w5.html" class="box">w5</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w6.html" class="box">w6</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w7.html" class="box">w7</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w8.html" class="box">w8</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w9.html" class="box">w9</a>
+        </div>
+
+        <div class="col-md-3">
+            <a href="halaman_w10.html" class="box">w10</a>
+        </div>
+        
+        <div class="col-md-3">
+            <a href="halaman_w11.html" class="box">w11</a>
+        </div>
+        <div class="col-md-3">
+            <a href="halaman_w12.html" class="box">w12</a>
+        </div>
+        <div class="col-md-3">
+            <a href="halaman_w13.html" class="box">w13</a>
+        </div>
+        <div class="col-md-3">
+            <a href="halaman_w14.html" class="box">w14</a>
+        </div>
+        <div class="col-md-3">
+            <a href="halaman_w15.html" class="box">w15</a>
+        </div>
+        <div class="col-md-3">
+            <a href="halaman_w16.html" class="box">w16</a>
         </div>
     </div>
 </div>
 
-<!-- Footer -->
-<footer>
-    <p>Dikembangkan oleh: Al-Asikinajah ©2024</p>
-</footer>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 
+<style>
 
+    body {
+        color: #387478;
+        font-family: 'Arial', sans-serif;
+        background-color: #E2F1E7;
+        margin: 5%;
+    }
+    
+    p{
+        margin: 0%;
+        font-style: italic;
+    }
+    .box {
+        background-color: #387478; /* Warna latar belakang */
+        color: white; /* Warna teks */
+        height: 100px; /* Tinggi kotak */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px; /* Ukuran font */
+        border-radius: 5px; /* Sudut melengkung */
+        margin-bottom: 20px; /* Jarak antara kotak */
+    }
+    .box:hover {
+        background-color: #243642; /* Warna latar belakang */
+    }
 
-
+    .list-group {
+        padding: 25px 0px;
+    }
+    
+</style>

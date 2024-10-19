@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1303220150_Soal1</title>
+    <link type="text/css" rel="stylesheet" href="style1.css">
+</head>
+<body onload="inputNama()"></body>
+    <form>
+        <div class="form-group">
+            <label>Nama</label>
+            <input type="text" class="form-control" id="nama" readonly>
+        </div>
+        <div class="form-group">
+            <label>NIM</label>
+            <input type="text" class="form-control" id="nim" readonly>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        function inputNama() {
+            var nama = prompt("Masukkan Nama:");
+            var nim = prompt("Masukkan NIM:");
+            document.getElementById('nama').value = nama;
+            document.getElementById('nim').value = nim;
+        }
+    </script>
+
+</body>
+</html>
